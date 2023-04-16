@@ -24,3 +24,9 @@ rosbag play MH_03_medium.bag
 rosrun ORB_SLAM3  Stereo Vocabulary/ORBvoc.txt /home/juo/ORB_SLAM3_detailed_comments/Examples_old/Stereo/EuRoC.yaml true
 ```
 
+双目
+
+```
+rosrun ORB_SLAM3 Stereo_Inertial Vocabulary/ORBvoc.txt /home/juo/ORB_SLAM3_detailed_comments/Examples_old/Stereo-Inertial/EuRoC.yaml true true
+```
+
